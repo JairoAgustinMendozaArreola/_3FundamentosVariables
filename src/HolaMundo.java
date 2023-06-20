@@ -13,5 +13,12 @@ public class HolaMundo {
 
         miVariableCadena = "Adios";
         System.out.println(miVariableCadena);
+
+        //var - Inferencia de tipos en Java
+        var miVariableEntera2 = 15;
+        System.out.println(miVariableEntera2);
+
+        var miVariableCadena2 = "Otra cadena";
+        System.out.println("miVariableCadena2 = " + miVariableCadena2);
     }
 }
