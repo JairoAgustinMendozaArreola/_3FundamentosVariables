@@ -20,5 +20,12 @@ public class HolaMundo {
 
         var miVariableCadena2 = "Otra cadena";
         System.out.println("miVariableCadena2 = " + miVariableCadena2);
+
+        //Valores permitidos
+        var miVariable = 1;
+        var _miVariable = 2;
+        var $miVariable = 3;
+        //var áVariable =10; No se recomienda utilizar
+        //var #miVariable = 2; no se permite utilizar caracteres especiales
     }
 }
