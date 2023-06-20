@@ -3,11 +3,13 @@ import java.util.Scanner;
 //Mi clase en Java
 public class HolaMundo {
     public static void main(String[] args) {
-        System.out.println("Proporciona el titulo:");
-        Scanner consola = new Scanner(System.in);
-        var titulo = consola.nextLine();
-        System.out.println("Proporciona el autor:");
-        var autor = consola.nextLine();
-        System.out.println( titulo + " fue escrito por " + autor);
+        /*
+            tipos primitivos enteros: byte,short,int,long
+         */
+
+        byte numeroByte = (byte) 129;
+        System.out.println("Valor byte: " + numeroByte);
+        System.out.println("valor minimo byte: " + Byte.MIN_VALUE);
+        System.out.println("valor maximo byte: " + Byte.MAX_VALUE);
     }
 }
