@@ -3,25 +3,26 @@ import java.util.Scanner;
 //Mi clase en Java
 public class HolaMundo {
     public static void main(String[] args) {
-        int a=3, b=2;
-        var resultado = a + b;
-        System.out.println("resultado suma= " + resultado);
+        int a = 3, b =2;
+        int c = a + 5 - b;
+        System.out.println("c = " + c);
 
-        resultado = a - b;
-        System.out.println("resultado resta= " + resultado);
+        a += 1; //a = a + 1
+        System.out.println("a = " + a);
 
-        resultado = a * b;
-        System.out.println("resultado multiplicacion= " + resultado);
-
-        var resultado2 = 3D / b;
-        System.out.println("resultado division= " + resultado2);
-
-        resultado = a % b;
-        System.out.println("resultado modulo = " + resultado);
-
-        if( b % 2 == 0)
-            System.out.println("Es numero par");
-        else
-            System.out.println("Es numero impar");
+        a += 3;//a = a + 3;
+        System.out.println("a = " + a);
+        
+        a -= 2;//a = a - 2;
+        System.out.println("a = " + a);
+        
+        a *= 2;//a = a * 2;
+        System.out.println("multiplicación a = " + a);
+        
+        a /= 2;//a = a / 2;
+        System.out.println("divicion a = " + a);
+        
+        a %= 2;//a = a % 2;
+        System.out.println("a = " + a);
     }
 }
